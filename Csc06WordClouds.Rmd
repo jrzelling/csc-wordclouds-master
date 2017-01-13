@@ -1,6 +1,6 @@
 ---
 title: "CSC 6"
-author: "John Ryan Zelling\n Analyst"
+author: "John Ryan Zelling \n Analyst"
 date: "Jan 2017"
 output: 
   pdf_document: 
