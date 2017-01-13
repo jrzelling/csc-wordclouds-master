@@ -1,0 +1,220 @@
+---
+title: "CSC 18"
+author: "John Ryan Zelling \n Analyst"
+date: "Jan 2017"
+output: 
+  pdf_document: 
+    latex_engine: xelatex
+    fig_height: 7.7
+    fig_width: 7
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!-- ===== -->
+<!-- TITLE -->
+<!-- ===== -->
+
+# CSC 18.0
+
+```{r, echo=FALSE, results='asis', warning=FALSE}
+source("CscString.R")
+print(csc18.0.q)
+```
+
+^[
+```{r, echo=FALSE, results='asis', warning=FALSE}
+print(csc.lic)
+```
+]
+
+<!-- ===== -->
+<!-- PAGES -->
+<!-- ===== -->
+
+<P style="page-break-before: always"> \pagebreak
+
+## CSC 18.1
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+library("png")
+library("NLP")
+library("RColorBrewer")
+source("WordCloudGenerator.R")
+WordCloudGenerator(csc18.1, "csc18.1")
+plot.new()
+jj <- readPNG('wordcloud.png')
+rasterImage(jj,-.3,-.3,1.3,1.3)
+dev.off()
+```
+
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+plot.new()
+qq <- readPNG('frequentwords.png')
+rasterImage(qq,0,0,1.0,1.0)
+dev.off()
+
+print(csc18.1)
+```
+
+<P style="page-break-before: always"> \pagebreak
+
+## CSC 18.2
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+WordCloudGenerator(csc18.2, "csc18.2")
+plot.new()
+jj <- readPNG('wordcloud.png')
+rasterImage(jj,-.3,-.3,1.3,1.3)
+dev.off()
+```
+
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+plot.new()
+qq <- readPNG('frequentwords.png')
+rasterImage(qq,0,0,1.0,1.0)
+dev.off()
+
+print(csc18.2)
+```
+
+<P style="page-break-before: always"> \pagebreak
+
+## CSC 18.3
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+WordCloudGenerator(csc18.3, "csc18.3")
+plot.new()
+jj <- readPNG('wordcloud.png')
+rasterImage(jj,-.3,-.3,1.3,1.3)
+dev.off()
+```
+
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+plot.new()
+qq <- readPNG('frequentwords.png')
+rasterImage(qq,0,0,1.0,1.0)
+dev.off()
+
+print(csc18.3)
+```
+
+<P style="page-break-before: always"> \pagebreak
+
+## CSC 18.4
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+WordCloudGenerator(csc18.4, "csc18.4")
+plot.new()
+jj <- readPNG('wordcloud.png')
+rasterImage(jj,-.3,-.3,1.3,1.3)
+dev.off()
+```
+
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+plot.new()
+qq <- readPNG('frequentwords.png')
+rasterImage(qq,0,0,1.0,1.0)
+dev.off()
+
+print(csc18.4)
+```
+
+<P style="page-break-before: always"> \pagebreak
+
+## CSC 18.5
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+WordCloudGenerator(csc18.5, "csc18.5")
+plot.new()
+jj <- readPNG('wordcloud.png')
+rasterImage(jj,-.3,-.3,1.3,1.3)
+dev.off()
+```
+
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+plot.new()
+qq <- readPNG('frequentwords.png')
+rasterImage(qq,0,0,1.0,1.0)
+dev.off()
+
+print(csc18.5)
+```
+
+<P style="page-break-before: always"> \pagebreak
+
+## CSC 18.6
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+WordCloudGenerator(csc18.6, "csc18.6")
+plot.new()
+jj <- readPNG('wordcloud.png')
+rasterImage(jj,-.3,-.3,1.3,1.3)
+dev.off()
+```
+
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+plot.new()
+qq <- readPNG('frequentwords.png')
+rasterImage(qq,0,0,1.0,1.0)
+dev.off()
+
+print(csc18.6)
+```
+
+<P style="page-break-before: always"> \pagebreak
+
+## CSC 18.7
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+WordCloudGenerator(csc18.7, "csc18.7")
+plot.new()
+jj <- readPNG('wordcloud.png')
+rasterImage(jj,-.3,-.3,1.3,1.3)
+dev.off()
+```
+
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+plot.new()
+qq <- readPNG('frequentwords.png')
+rasterImage(qq,0,0,1.0,1.0)
+dev.off()
+
+print(csc18.7)
+```
+
+<P style="page-break-before: always"> \pagebreak
+
+## CSC 18.8
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+WordCloudGenerator(csc18.8, "csc18.8")
+plot.new()
+jj <- readPNG('wordcloud.png')
+rasterImage(jj,-.3,-.3,1.3,1.3)
+dev.off()
+```
+
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+plot.new()
+qq <- readPNG('frequentwords.png')
+rasterImage(qq,0,0,1.0,1.0)
+dev.off()
+
+print(csc18.8)
+```
+
+<P style="page-break-before: always"> \pagebreak
+
+## CSC 18.9
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+WordCloudGenerator(csc18.9, "csc18.9")
+plot.new()
+jj <- readPNG('wordcloud.png')
+rasterImage(jj,-.3,-.3,1.3,1.3)
+dev.off()
+```
+
+```{r, echo=FALSE, results='asis', warning=FALSE, fig.align='center', fig.width=7, fig.height=8}
+plot.new()
+qq <- readPNG('frequentwords.png')
+rasterImage(qq,0,0,1.0,1.0)
+dev.off()
+
+print(csc18.9)
+```
