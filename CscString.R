@@ -273,8 +273,6 @@ csc20.8<-"Create a test bed that mimics a production environment for specific pe
 
 csc20.x<-c(csc20.0.t, csc20.1, csc20.2, csc20.3, csc20.4, csc20.5, csc20.6, csc20.7, csc20.8)
 
-#HiDent
-
 csc.all<-c("1.1","1.2","1.3","1.4","1.5","1.6",
 					 "2.1","2.2","2.3","2.4",
 					 "3.1","3.2","3.3","3.4","3.5","3.6","3.7",
