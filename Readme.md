@@ -1,3 +1,5 @@
+Output is in PDF folder
+
 This is a tool for master analysts to drive their organizations' IT Security efforts. The data from this report is the SANS Institute (https://www.sans.org/critical-security-controls). This Rmd project generates automated linguistic analysis report of the International IT Security Critical Security Controls published by SANS, ver. 2016. 
 
 The original Csc document is largely confusing and hard to read, but surprisingly clear when the extra words are removed and the data is visualized in a new way. I created this program to automatically generate the intelligence report on the Critical Security Controls meant for high level management to drive the Security effort of the organization. 
